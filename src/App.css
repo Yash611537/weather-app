@@ -13,6 +13,13 @@ body {
   height: 100vh; /* Make sure the background covers the full viewport height */
 }
 
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   /* background: rgba(0, 0, 0, 0.87); */
   color: white;
@@ -201,5 +208,8 @@ body {
 @media (max-width: 900px) {
   .forecast-card {
     width: calc(50% - 1em); /* Adjusted width for 2 cards in a row */
+  }
+  .main-card {
+    width: 90%;
   }
 }
