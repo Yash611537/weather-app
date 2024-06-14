@@ -1,4 +1,4 @@
- className="main-div"import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { FaLocationCrosshairs } from "react-icons/fa6";
 
